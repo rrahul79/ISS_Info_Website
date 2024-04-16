@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ISS locator</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <video src="video.mp4" muted autoplay loop id = 'myVideo'></video>
+    <body>
+        
+        
+        <p id = "title">ISS_info App</p>
+        <div >
+            <div id = "ISS_location">
+                <p>Latitude : <span id = "latitude">0000</span> &deg;</p> 
+                <p>Longitude : <span id = "longitude">0000</span> &deg;</p>
+            </div>
+            <button id = "loc_btn">Get Location</button>
+        </div>
+
+        <div id = "div_astro">
+            <button id = "astro_btn">Get Astronauts</button>
+            <div id = "list_box">
+                <ol id = "list" type = "1" >
+
+                </ol>
+            </div>
+        </div>
+        <p id = "developer">Developed by Rahul VS</p>
+        
+    <script type = "text/javascript" src = "script.js"></script>    
+    </body>
+</html>

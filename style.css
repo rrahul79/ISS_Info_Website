@@ -1,0 +1,72 @@
+body
+{
+    background-color: black;
+    background-image: url("img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    color: white;
+    
+}
+#myVideo {
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index:-100;
+      
+  }
+#title
+{
+    
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:-2px;
+}
+
+#ISS_location
+{
+
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#div_astro
+{
+    margin-top: 100px;
+}
+
+button
+{
+    background-image: linear-gradient(rgb(4, 0, 255),rgb(0, 13, 255));
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+}
+
+#list
+{
+    width:20%;   
+    height:124.5px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    overflow-y:hidden;
+    scroll-behavior: smooth;
+
+}
+
+#developer
+{
+    color:white;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+}
